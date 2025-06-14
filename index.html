@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8" />
-  <title>Formulaire Contact</title>
-</head>
-<body>
-  <form action="/versel.js" method="POST">
-    <input type="text" name="nom" placeholder="Nom" required />
-    <input type="email" name="email" placeholder="Email" required />
-    <textarea name="message" placeholder="Message" required></textarea>
-    <button type="submit">Envoyer</button>
-  </form>
-</body>
-</html>
+<form action="/submit" method="POST">
+  <input type="text" name="nom" required />
+  <input type="email" name="email" required />
+  <textarea name="message" required></textarea>
+  <button type="submit">Envoyer</button>
+</form>
